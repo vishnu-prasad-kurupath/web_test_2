@@ -1,6 +1,6 @@
 {
-    "name": "md_web_test",
-    "short_name": "md_web_test",
+    "name": "molslice",
+    "short_name": "molslice",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
