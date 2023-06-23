@@ -65637,7 +65637,7 @@ $R:3,
 $S:131}
 A.a5Y.prototype={
 $0(){var s=this.a,r=s.b
-if(r<2){s.b=r+1
+if(r<1){s.b=r+1
 s.c=s.r=!1
 s.w=2
 s.x=null}s.a7()},
