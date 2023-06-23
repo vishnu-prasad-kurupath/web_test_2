@@ -20676,7 +20676,7 @@ W_:function W_(){},
 Fz:function Fz(){},
 Yv:function Yv(a){this.a=a},
 cm:function cm(a){var _=this
-_.b=1
+_.b=0
 _.c=!1
 _.e=1
 _.f=2
@@ -65548,6 +65548,9 @@ $S:391}
 A.SU.prototype={
 $0(){var s=this.b
 s.b=this.a.c
+s.c=s.r=!1
+s.w=2
+s.x=null
 s.a7()
 A.XH(this.c).Lm(null)},
 $S:0}
@@ -65565,7 +65568,7 @@ $3(a,b,c){var s,r=null,q=t.w,p=A.bQ(a,r,q).w,o=b.b,n=A.iU(B.Hz,100,A.bQ(a,r,q).w
 q=A.bQ(a,r,q).w
 o=$.Qe()[o]
 s=t.p
-return A.iU(new A.rF(3,A.ny(A.a([n,A.iU(new A.wd(A.a([A.Vi(o.x),A.Vi(o.z),A.Vi(o.y)],s),r),200,q.a.a)],s),B.P,B.bZ,B.cS),r),500,p.a.a)},
+return A.iU(new A.rF(3,A.ny(A.a([n,A.iU(new A.wd(A.a([A.Vi(o.x),A.Vi(o.z),A.Vi(o.y)],s),r),300,q.a.a)],s),B.P,B.bZ,B.cS),r),500,p.a.a)},
 $C:"$3",
 $R:3,
 $S:56}
@@ -65574,7 +65577,7 @@ I(a){var s,r,q=this,p=null
 $.bu.dy$.push(new A.Vt(q,new A.Vu(q),a))
 s=$.qJ()
 r=$.aka()
-return new A.BF(q.w,A.dW(p,A.Vi(q.c),p,r,430,s,p,B.aB,p),p)}}
+return new A.BF(q.w,A.dW(p,A.Vi(q.c),p,r,350,s,p,B.aB,p),p)}}
 A.Vu.prototype={
 $5(a,b,c,d,e){var s,r,q,p,o,n,m=null
 if(A.D8($.qJ())!=null){s=A.D8($.qJ())
@@ -65635,7 +65638,9 @@ $S:131}
 A.a5Y.prototype={
 $0(){var s=this.a,r=s.b
 if(r<2){s.b=r+1
-s.b=r}s.a7()},
+s.c=s.r=!1
+s.w=2
+s.x=null}s.a7()},
 $S:0}
 A.EZ.prototype={
 I(a){return B.GE}}
@@ -71331,8 +71336,7 @@ s($,"ayJ","akz",()=>A.c7(16667,0))
 s($,"axX","ak2",()=>A.ac4(0.5,1.1,100))
 s($,"awP","aan",()=>A.aj7(0.78)/A.aj7(0.9))
 s($,"aAP","alI",()=>new A.Yv(A.y(t.N,A.a_("ad<bL?>?(bL?)"))))
-r($,"aAx","Qe",()=>{var q="https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test_2/main/icons/Icon-512.png"
-return A.a([A.afW(q,q,500,4,2,2,0,q,q,50,50),A.afW(q,q,500,4,2,2,2,q,q,50,50)],A.a_("v<Fk>"))})
+r($,"aAx","Qe",()=>A.a([A.afW("https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/flower-8041698_640.jpg","https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/flower-8068875_640.webp",500,4,2,2,0,"https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/blur-8032687_640.webp","https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/bird-7881393_640.webp",50,50),A.afW("https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/men-8016782_640.jpg","https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/water-8053999_640.webp",500,4,2,2,1,"https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/man-8060589_1280.webp","https://raw.githubusercontent.com/vishnu-prasad-kurupath/web_test/main/icons/forest-4824759_640.webp",50,50)],A.a_("v<Fk>")))
 s($,"awJ","ajB",()=>{var q=null
 return A.ip(A.io(B.i),B.aG,q,q,q,q,B.U)})
 s($,"axC","ajQ",()=>{var q=null
